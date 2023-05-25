@@ -1,5 +1,5 @@
 name: configmap overrides values from fleet.yaml
-config: configmap-values
+config: config option
 options:
   onlyconfigmap: configmap option
   english:
