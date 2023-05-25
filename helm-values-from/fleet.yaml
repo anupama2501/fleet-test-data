@@ -2,11 +2,11 @@ helm:
   valuesFrom:
     - secretKeyRef:
         name: secret-values
-        key: values-from-secret.yaml
+        key: values.yaml
       configMapKeyRef:
         name: configmap-values
         namespace: default
-        key: values-from-configmap.yaml
+        key: values.yaml
   values:
     name: name from fleet.yaml
     fleetyaml: from fleet.yaml
