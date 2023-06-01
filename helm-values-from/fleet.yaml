@@ -10,9 +10,10 @@ helm:
   values:
     name: name from fleet.yaml
     fleetyaml: from fleet.yaml
+    config: config option
+    secret: xyz secret
     options:
       english:
         name: english name from fleet.yaml
       onlyconfigmap: configmap option
-      english:
-        name: configmap override
+      onlysecret: secret option
