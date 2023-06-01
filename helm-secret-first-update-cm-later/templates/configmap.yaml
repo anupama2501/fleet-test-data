@@ -8,3 +8,5 @@ data:
   fleetyaml: {{ .Values.fleetyaml }}
   englishname: {{ .Values.options.english.name }}
   optionsecret: {{ .Values.options.onlysecret }}
+  config: {{ .Values.config }}
+  optionconfigmap: {{ .Values.options.onlyconfigmap }}
