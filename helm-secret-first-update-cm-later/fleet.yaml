@@ -8,6 +8,7 @@ helm:
     fleetyaml: from fleet.yaml
     secret: abc secret
     options:
+      onlysecret: secret option
       english:
         name: english name from fleet.yaml
-        onlysecret: secret option
+
