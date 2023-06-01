@@ -6,6 +6,8 @@ helm:
   values:
     name: name from fleet.yaml
     fleetyaml: from fleet.yaml
+    secret: abc secret
     options:
       english:
         name: english name from fleet.yaml
+        onlysecret: secret option
