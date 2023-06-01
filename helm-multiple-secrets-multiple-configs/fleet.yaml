@@ -1,0 +1,28 @@
+helm:
+  valuesFrom:
+    - secretKeyRef:
+        name: secret-values
+        key: values.yaml
+      secretKeyRef:
+        name: secret-values2
+        key: values.yaml
+      configMapKeyRef:
+        name: configmap-values
+        namespace: default
+        key: values.yaml
+      configMapKeyRef:
+        name: configmap2-values
+        namespace: default
+        key: values.yaml
+  values:
+    name: name from fleet.yaml
+    fleetyaml: from fleet.yaml
+    secret: abc secret
+    config: config map override
+    options:
+      onlysecret: secret option
+      onlysecret2: secret option2
+      onlyconfigmap: configmap option
+      onlyconfigmap2: configmap option2
+      english:
+        name: english name from fleet.yaml
