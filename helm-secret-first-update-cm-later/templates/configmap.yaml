@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: result
+data:
+  name: {{ .Values.name }}
+  secret: {{ .Values.secret }}
+  fleetyaml: {{ .Values.fleetyaml }}
+  englishname: {{ .Values.options.english.name }}
+  optionsecret: {{ .Values.options.onlysecret }}
