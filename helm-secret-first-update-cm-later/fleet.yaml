@@ -7,8 +7,10 @@ helm:
     name: name from fleet.yaml
     fleetyaml: from fleet.yaml
     secret: abc secret
+    config: config map override
     options:
       onlysecret: secret option
+      onlyconfigmap: configmap option
       english:
         name: english name from fleet.yaml
 
