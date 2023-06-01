@@ -13,3 +13,8 @@ helm:
     options:
       english:
         name: english name from fleet.yaml
+      config: config option
+      options:
+        onlyconfigmap: configmap option
+        english:
+          name: configmap override
