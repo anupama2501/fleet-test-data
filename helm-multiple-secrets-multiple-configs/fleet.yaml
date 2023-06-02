@@ -13,7 +13,7 @@ helm:
     - configMapKeyRef:
         name: configmap2-values
         namespace: default
-        key: values.yaml
+        key: values2.yaml
   values:
     name: name from fleet.yaml
     fleetyaml: from fleet.yaml
