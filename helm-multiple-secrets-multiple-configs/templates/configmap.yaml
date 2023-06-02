@@ -4,7 +4,7 @@ metadata:
   name: result
 data:
   name: {{ .Values.name }}
-  secret1: {{ .Values.secret }}
+  secret1: {{ .Values.secret1 }}
   secret2: {{ .Values.secret2 }}
   config: {{ .Values.config }}
   fleetyaml: {{ .Values.fleetyaml }}
