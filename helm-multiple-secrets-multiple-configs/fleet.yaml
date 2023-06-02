@@ -21,7 +21,7 @@ helm:
     secret2: secret2
     config: config map override
     options:
-      onlysecret: secret option1
+      onlysecret1: secret option1
       onlysecret2: secret option2
       onlyconfigmap: configmap option
       onlyconfigmap2: configmap option2
