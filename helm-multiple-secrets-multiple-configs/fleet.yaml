@@ -5,7 +5,7 @@ helm:
         key: values.yaml
     - secretKeyRef:
         name: secret-values2
-        key: values.yaml
+        key: values2.yaml
       configMapKeyRef:
         name: configmap-values
         namespace: default
