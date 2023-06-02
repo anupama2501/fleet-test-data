@@ -11,6 +11,6 @@ data:
   secretname1: {{ .Values.options.secret1.name }}
   secretname2: {{ .Values.options.secret2.name }}
   optionconfigmap: {{ .Values.options.onlyconfigmap }}
-  optionsecret: {{ .Values.options.onlysecret1 }}
+  optionsecret1: {{ .Values.options.onlysecret1 }}
   optionsecret2: {{ .Values.options.onlysecret2 }}
   optionconfigmap2: {{ .Values.options.onlyconfigmap2 }}
