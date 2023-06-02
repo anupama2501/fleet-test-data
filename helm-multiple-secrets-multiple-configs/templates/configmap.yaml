@@ -4,11 +4,13 @@ metadata:
   name: result
 data:
   name: {{ .Values.name }}
-  secret: {{ .Values.secret }}
+  secret1: {{ .Values.secret }}
+  secret2: {{ .Values.secret2 }}
   config: {{ .Values.config }}
   fleetyaml: {{ .Values.fleetyaml }}
-  englishname: {{ .Values.options.english.name }}
+  secretname1: {{ .Values.options.secret1.name }}
+  secretname2: {{ .Values.options.secret2.name }}
   optionconfigmap: {{ .Values.options.onlyconfigmap }}
-  optionsecret: {{ .Values.options.onlysecret }}
+  optionsecret: {{ .Values.options.onlysecret1 }}
   optionsecret2: {{ .Values.options.onlysecret2 }}
   optionconfigmap2: {{ .Values.options.onlyconfigmap2 }}
